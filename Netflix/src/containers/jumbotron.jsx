@@ -2,7 +2,7 @@ import {Jumbotron} from "../components"
 import jumboData from '../fixtures/jumbo.json'
 
 
-export  function JumbotronContainer() {
+export default function JumbotronContainer() {
   
   return (
     <>
