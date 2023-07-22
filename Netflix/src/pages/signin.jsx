@@ -1,7 +1,12 @@
+import FooterContainer from "../containers/footer";
+import HeaderContainer from "../containers/header";
 
 
 export default function Signin() {
     return(
-        <p>Hello from the sign in!</p>
+        <>
+         <HeaderContainer>Hello from the sign in!</HeaderContainer>
+         <FooterContainer/>
+        </>
     )
 }
