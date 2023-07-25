@@ -49,7 +49,7 @@ export async function seedDatabase(db) {
       genre: 'documentaries',
       maturity: '18',
       slug: 'tiger-king',
-    }),
+    });
     await setDoc(Series, {
       id: getUUID(),
       title: 'Amanda Knox',
@@ -57,7 +57,7 @@ export async function seedDatabase(db) {
       genre: 'documentaries',
       maturity: '12',
       slug: 'amanda-knox',
-    }),
+    });
     await setDoc(Series, {
       id: getUUID(),
       title: 'Citizenfour',

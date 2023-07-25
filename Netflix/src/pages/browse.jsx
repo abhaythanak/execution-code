@@ -1,3 +1,4 @@
+import BrowseContainer from "../containers/browse";
 
 
 export default function Browse() {
@@ -8,6 +9,6 @@ export default function Browse() {
         //we need slides
 
         // pass it to the browse container
-        <p>Hello from the Browse!</p>
+        <BrowseContainer slides={slides} />
     )
 }

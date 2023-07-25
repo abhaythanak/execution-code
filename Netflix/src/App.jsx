@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import { Home, Browse, Signin, Signup } from "./pages"
 import * as ROUTES from './constants/routes'
-import { app } from "./lib/firebase.prod";
+//import { app } from "./lib/firebase.prod";
 export default function App() {
   
   return (
